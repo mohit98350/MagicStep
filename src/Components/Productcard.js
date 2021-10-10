@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const Productcard = ({
@@ -20,8 +21,8 @@ const Productcard = ({
                                     </div>
                                     <div className="col-4 padi-cg">
                                         <div>{Pro_name}</div>
-                                        <div className="text-secondary">{Color}</div>
-                                        <div className="text-secondary">{Quantity}</div>
+                                        <div style={{color:'grey',fontSize:20}}>{Color}</div>
+                                        <div style={{color:'grey',fontSize:20}}>{Quantity}</div>
                                     </div>
                                     <div className="col-4">
                                         <div>{Price}</div>
