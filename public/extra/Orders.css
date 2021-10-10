@@ -1,3 +1,4 @@
+
 .main {
     width: 30%;
 }
@@ -19,6 +20,8 @@ nav.nav.navbar-toggler {
     margin-top: 10px;
     background-color: rgb(243, 241, 241);
     border-radius: 8px;
+    font-size: 15px;
+
 }
 
 .has-search .form-control-feedback {
@@ -29,8 +32,9 @@ nav.nav.navbar-toggler {
     height: 2.375rem;
     line-height: 2.375rem;
     text-align: center;
-    color: rgb(92, 91, 91);
+    color: black;
     top: 10px;
+    font-size: 18px;
 }
 
 .status {
@@ -95,27 +99,4 @@ nav .h5 {
     display: inline-block;
     border-bottom: solid 6px rgb(5, 202, 5);
     padding: 0 10px;
-}
-
-.status div {
-    text-align: center;
-}
-
-@media(min-width: 800px){
-    input.form-control{
-        width: 450px !important;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    nav .main {
-        width: 100%;
-    }
-    nav .main .form-group {
-        width: 100%;
-    }
-    .extra-pad-space{
-        padding-right: 0px !important;
-        padding-left: 9px !important;
-    }
 }
