@@ -19,8 +19,10 @@ nav.nav.navbar-toggler {
     padding-left: 2.375rem;
     margin-top: 10px;
     background-color: rgb(243, 241, 241);
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 15px;
+    width: 150%;
+    
 
 }
 
@@ -74,9 +76,14 @@ nav.nav.navbar-toggler {
     font-weight: 700;
     font-size: 16px !important;
 }
-
+.col {
+    color:grey;
+    font-size: 22px;
+}
 .col-4.padi-cg {
     padding: 0 !important;
+    font-size: 20px;
+    color: grey;
 }
 
 .col-sm-12.col-md-4 {
@@ -89,6 +96,9 @@ nav div {
 
 nav .h5 {
     width: 300px;
+    color:grey;
+    font-size:30px;
+    padding-top:10px;
 }
 
 /* nav .main {
@@ -100,3 +110,33 @@ nav .h5 {
     border-bottom: solid 6px rgb(5, 202, 5);
     padding: 0 10px;
 }
+@media(max-width: 400px){
+    .alert.alert-danger {
+        margin-bottom: 10px;
+        width: 89px;
+        height: 28px;
+        
+        font-size: 12px !important;
+    }
+    .col-6{
+        padding: 1px;
+        font-size: 15px;
+    }
+    .col-4{
+        font-size: 15px!important;
+    }
+   
+    .col-4 img{
+        padding: 5px;
+    }
+    .col{
+        font-size: 16px;
+    }
+    .has-search .form-control {
+      width: 320%;
+        
+        
+    
+    }
+    
+    }

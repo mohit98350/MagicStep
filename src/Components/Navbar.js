@@ -4,7 +4,7 @@ const Navbar=()=> {
     return (
         <div className="container-fluid">
         <nav className="nav">
-             <div className=" h5 d-none d-sm-block" style={{color:'grey' , fontSize:30 , paddingTop:10}}>Orders</div> 
+             <div className=" h5 d-none d-sm-block">Orders</div> 
 
             <div className="main">
                 <div className="form-group has-search">
@@ -15,10 +15,10 @@ const Navbar=()=> {
         </nav>
         <div className="row status">
             <div className="col highlight extra-pad-space"><span className="status-active pl-1 pr-0">All</span></div>
-              <div className="col  extra-pad-space" style={{color:'grey',fontSize:22}}>Pending</div> 
-            <div className="col extra-pad-space"style={{color:'grey',fontSize:22}}>Shipped</div>
-            <div className="col"style={{color:'grey',fontSize:22}}>Delivered</div>
-            <div className="col  d-none d-sm-block" style={{color:'grey',fontSize:22}}>Return</div>
+              <div className="col extra-pad-space">Pending</div> 
+            <div className="col extra-pad-space">Shipped</div>
+            <div className="col">Delivered</div>
+            <div className="col  d-none d-sm-block">Return</div>
         </div>
        </div>
     )

@@ -21,8 +21,8 @@ const Productcard = ({
                                     </div>
                                     <div className="col-4 padi-cg">
                                         <div>{Pro_name}</div>
-                                        <div style={{color:'grey',fontSize:20}}>{Color}</div>
-                                        <div style={{color:'grey',fontSize:20}}>{Quantity}</div>
+                                        <div >{Color}</div>
+                                        <div >{Quantity}</div>
                                     </div>
                                     <div className="col-4">
                                         <div>{Price}</div>
