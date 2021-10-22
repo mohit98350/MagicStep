@@ -1,4 +1,3 @@
-
 .main {
     width: 30%;
 }
@@ -17,13 +16,9 @@ nav.nav.navbar-toggler {
 
 .has-search .form-control {
     padding-left: 2.375rem;
-    margin-top: 10px;
+    margin-top: 11px;
     background-color: rgb(243, 241, 241);
-    border-radius: 10px;
-    font-size: 15px;
-    width: 150%;
-    
-
+    border-radius: 8px;
 }
 
 .has-search .form-control-feedback {
@@ -34,9 +29,8 @@ nav.nav.navbar-toggler {
     height: 2.375rem;
     line-height: 2.375rem;
     text-align: center;
-    color: black;
+    color: rgb(92, 91, 91);
     top: 10px;
-    font-size: 18px;
 }
 
 .status {
@@ -53,13 +47,13 @@ nav.nav.navbar-toggler {
 
 .card-view {
     background-color: rgb(243, 241, 241);
-    height: 230px;
+    height: 600px;
 }
 
 .row .card-display {
     background-color: #fff;
     border-radius: 8px;
-    padding: 20px;                          
+    padding: 25px;
     margin: auto;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -67,8 +61,11 @@ nav.nav.navbar-toggler {
     font-weight: 500;
 }
 
+
 .alert.alert-danger {
-    margin: 10px;
+    
+    margin-top: 18px;
+    margin-left: 33px;
     width: 89px;
     height: 28px;
     padding: inherit;
@@ -76,14 +73,9 @@ nav.nav.navbar-toggler {
     font-weight: 700;
     font-size: 16px !important;
 }
-.col {
-    color:grey;
-    font-size: 22px;
-}
+
 .col-4.padi-cg {
     padding: 0 !important;
-    font-size: 20px;
-    color: grey;
 }
 
 .col-sm-12.col-md-4 {
@@ -96,47 +88,139 @@ nav div {
 
 nav .h5 {
     width: 300px;
-    color:grey;
-    font-size:30px;
-    padding-top:10px;
+    font-size: 30px;
+    padding-top: 10px;
 }
 
 /* nav .main {
     width: 600px !important;
 } */
 
-.status-active {
+/* .status-active {
     display: inline-block;
     border-bottom: solid 6px rgb(5, 202, 5);
     padding: 0 10px;
+} */
+.status div {
+    text-align: center;
 }
-@media(max-width: 400px){
-    .alert.alert-danger {
-        margin-bottom: 10px;
-        width: 89px;
-        height: 28px;
-        
-        font-size: 12px !important;
+.scrollmenu ul{
+    /* list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; */
+    list-style-type: none;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.scrollmenu li{
+    display: inline-block;
+
+}
+
+.scrollmenu {
+    /* background-color: white; */
+    overflow: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    margin-bottom: -5px;
+    margin-top: -12px;
+   
+    
+  }
+  .scrollmenu a {
+    display: block;
+    width: 100px;
+    color: grey;
+    text-align: center;
+    padding-top: 1px ;
+    padding-bottom: 18px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .active {
+    display: inline-block;
+    border-bottom: solid 5px rgb(5, 202, 5);
+    padding: 0 10px;
+  }
+  
+/*   
+  div.scrollmenu a {
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  } */
+  .scrollmenu::-webkit-scrollbar{
+      width: 2px;
+  }
+.scrollmenu ul li{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+
+@media(min-width: 800px){
+    input.form-control{
+        width: 450px !important;
     }
-    .col-6{
-        padding: 1px;
-        font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav .main {
+        width: 100%;
+    }
+    nav .main .form-group {
+        width: 100%;
+    }
+    .extra-pad-space{
+        padding-right: 0px !important;
+        padding-left: 9px !important;
+       
     }
     .col-4{
-        font-size: 15px!important;
+        font-size: 19px;
     }
-   
-    .col-4 img{
-        padding: 5px;
-    }
-    .col{
-        font-size: 16px;
-    }
-    .has-search .form-control {
-      width: 320%;
-        
-        
-    
+    .col-6{
+        font-size: 19px;
     }
     
+    .scrollmenu ul{
+       
+    justify-content: space-between;
+      margin-left: 21px;
+      padding: 0%;
+  
+        
+      
     }
+    .scrollmenu a {
+      
+        font-size: 18px;
+       
+      }
+      .scrollmenu {
+          
+            margin-right: 12px;
+            margin-left: -15px;
+           
+        
+      }
+      .alert.alert-danger {
+        margin-left: 10px;
+        margin-top: 5px;
+       
+        
+        
+    }
+    
+    
+}

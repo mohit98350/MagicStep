@@ -1,48 +1,90 @@
 
 import React from 'react'
 
-const Productcard = ({
-    Pro_name,
-    Color,
-    Quantity,
-    Price,
-    Status,
-    Delivery_date
-}) => {
+const Productcard = () => {
     return (
-        <div>
-            <div className="container-fluid">
-                <div class="row card-view">
-                        <div className="col-sm-12 col-md-12 ">
-                            <div className=" card-display">
-                                <div className="row">
-                                    <div className="col-4">
-                                        <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
-                                    </div>
-                                    <div className="col-4 padi-cg">
-                                        <div>{Pro_name}</div>
-                                        <div >{Color}</div>
-                                        <div >{Quantity}</div>
-                                    </div>
-                                    <div className="col-4">
-                                        <div>{Price}</div>
-                                        <div>{Price}</div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-6">
-                                        <div className="alert alert-danger" role="alert">
-                                            {Status}
-                                        </div>
-                                    </div>
-                                    <div className="col-6">{Delivery_date}</div>
+        <div class="container-fluid">
+            <div className="row card-view">
+                <div className="col-sm-12 col-md-4">
+                    <div className=" card-display">
+                        <div className="row">
+                            <div className="col-4">
+                                <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
+                            </div>
+                            <div className="col-4 padi-cg">
+                                <div>Apple iphone 12</div>
+                                <div >Red</div>
+                                <div >1</div>
+                            </div>
+                            <div className="col-4">
+                                <div>$999</div>
+                                <div>$999</div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-6">
+                                <div className="alert alert-danger" role="alert">
+                                    Pending
                                 </div>
                             </div>
+                            <div className="col-6">12 june,2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-12 col-md-4">
+                    <div className=" card-display">
+                        <div className="row">
+                            <div className="col-4">
+                                <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
+                            </div>
+                            <div className="col-4 padi-cg">
+                                <div>Apple iphone 12</div>
+                                <div >Red</div>
+                                <div >1</div>
+                            </div>
+                            <div className="col-4">
+                                <div>$999</div>
+                                <div>$999</div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-6">
+                                <div className="alert alert-danger" role="alert">
+                                    Pending
+                                </div>
+                            </div>
+                            <div className="col-6">12 june,2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-12 col-md-4">
+                    <div className=" card-display">
+                        <div className="row">
+                            <div className="col-4">
+                                <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
+                            </div>
+                            <div className="col-4 padi-cg">
+                                <div>Apple iphone 12</div>
+                                <div >Red</div>
+                                <div >1</div>
+                            </div>
+                            <div className="col-4">
+                                <div>$999</div>
+                                <div>$999</div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-6">
+                                <div className="alert alert-danger" role="alert">
+                                    Pending
+                                </div>
+                            </div>
+                            <div className="col-6">12 june,2021</div>
                         </div>
                     </div>
                 </div>
             </div>
-  
+        </div>
 
 
     )
