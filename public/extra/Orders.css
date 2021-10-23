@@ -64,20 +64,47 @@ nav.nav.navbar-toggler {
 
 .alert.alert-danger {
     
-    margin-top: 18px;
-    margin-left: 33px;
+    margin-top: 22px;
+    margin-left: 20px;
     width: 89px;
     height: 28px;
     padding: inherit;
     color: red;
-    font-weight: 700;
+    font-weight: 600;
+    border-radius: 80px;
     font-size: 16px !important;
 }
-
+.col-4 img{
+margin-left: -25px;
+}
 .col-4.padi-cg {
-    padding: 0 !important;
+    /* padding: 0 !important; */
+    justify-content: left;
+    text-align: left; 
+    
+ 
+    
 }
 
+.date{
+  
+    font-size: 15px;
+    justify-content: flex-end;
+    text-align: left; 
+    padding-top: 26px;
+    margin-left: -98px;
+    
+    
+ 
+
+
+}
+.left{
+margin-left: -70px;
+}
+.red{
+    color: grey;
+}
 .col-sm-12.col-md-4 {
     margin: 5px 0 !important;
 }
@@ -167,14 +194,56 @@ nav .h5 {
     text-align: center;
 }
 
+.Tprice{
+    padding-top: 27px;
+    
+}
+@media only screen and (max-width: 1550px) {
+    .alert.alert-danger {
+        margin-left: 0;
+        margin-right: 5px;
+       
+        
+        
+    }
+    .left{
+        /* margin-left: -38px; */
 
+        display: -webkit-box;
+        max-width: 320px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        }
+        .col-6{
+            font-size: 11px;
+        }
+       .date{
+           padding-right: 15px;
+           font-size: 11px;
+            margin-left: 0;
+            
+       }
+       .left{
+        padding-left: 60px;
+    }
+   
+}
 @media(min-width: 800px){
     input.form-control{
         width: 450px !important;
     }
+    .left{
+        display: -webkit-box;
+        max-width: 320px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        }
+        
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     nav .main {
         width: 100%;
     }
@@ -187,10 +256,10 @@ nav .h5 {
        
     }
     .col-4{
-        font-size: 19px;
+        font-size: 17px;
     }
     .col-6{
-        font-size: 19px;
+        font-size: 16px;
     }
     
     .scrollmenu ul{
@@ -215,12 +284,44 @@ nav .h5 {
         
       }
       .alert.alert-danger {
-        margin-left: 10px;
-        margin-top: 5px;
+        margin-left: 37px;
+        margin-top: 12px; 
+    }
+    .left{
+        margin-left: -38px;
+
+        display: -webkit-box;
+        max-width: 320px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        }
+        .date{
+  
+            font-size: 16px;
+            padding: 18px;    
+        
+        }
+    
+}
+@media only screen and (max-width: 640px) {
+    .alert.alert-danger {
+        margin-left: 15px;
        
         
         
     }
-    
-    
+}
+@media only screen and (max-width: 450px) {
+    .alert.alert-danger {
+        margin-left: -15px;       
+    }
+    .left{
+        padding-left: 7px;
+    }
+    .date{
+        font-size: 13px;
+        margin-left: -60px;
+       
+    }
 }

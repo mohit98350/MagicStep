@@ -8,17 +8,17 @@ const Productcard = () => {
                 <div className="col-sm-12 col-md-4">
                     <div className=" card-display">
                         <div className="row">
-                            <div className="col-4">
+                            <div className="col-4 ">
                                 <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
                             </div>
                             <div className="col-4 padi-cg">
-                                <div>Apple iphone 12</div>
-                                <div >Red</div>
-                                <div >1</div>
+                                <div className="left">Apple iphone 12</div>
+                                <div className="left  red" >Red</div>
+                                <div className="left red">1</div>
                             </div>
                             <div className="col-4">
                                 <div>$999</div>
-                                <div>$999</div>
+                                <div className="Tprice">$999</div>
                             </div>
                         </div>
                         <div className="row">
@@ -27,7 +27,7 @@ const Productcard = () => {
                                     Pending
                                 </div>
                             </div>
-                            <div className="col-6">12 june,2021</div>
+                            <div className="col-6 date">12 june,2021</div>
                         </div>
                     </div>
                 </div>
@@ -38,13 +38,13 @@ const Productcard = () => {
                                 <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
                             </div>
                             <div className="col-4 padi-cg">
-                                <div>Apple iphone 12</div>
-                                <div >Red</div>
-                                <div >1</div>
+                                <div className="left">Apple iphone 12</div>
+                                <div className="left red" >Red</div>
+                                <div className="left red">1</div>
                             </div>
                             <div className="col-4">
                                 <div>$999</div>
-                                <div>$999</div>
+                                <div className="Tprice">$999</div>
                             </div>
                         </div>
                         <div className="row">
@@ -53,7 +53,7 @@ const Productcard = () => {
                                     Pending
                                 </div>
                             </div>
-                            <div className="col-6">12 june,2021</div>
+                            <div className="col-6 date">12 june,2021</div>
                         </div>
                     </div>
                 </div>
@@ -64,13 +64,13 @@ const Productcard = () => {
                                 <img src="./img/71E5zB1qbIL 7.png" width="100px" height="100px" />
                             </div>
                             <div className="col-4 padi-cg">
-                                <div>Apple iphone 12</div>
-                                <div >Red</div>
-                                <div >1</div>
+                                <div className="left">Apple iphone 12</div>
+                                <div className="left red">Red</div>
+                                <div className="left red">1</div>
                             </div>
                             <div className="col-4">
                                 <div>$999</div>
-                                <div>$999</div>
+                                <div className="Tprice">$999</div>
                             </div>
                         </div>
                         <div className="row">
@@ -79,7 +79,7 @@ const Productcard = () => {
                                     Pending
                                 </div>
                             </div>
-                            <div className="col-6">12 june,2021</div>
+                            <div className="col-6 date" >12 june,2021</div>
                         </div>
                     </div>
                 </div>
