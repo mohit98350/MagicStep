@@ -40,9 +40,15 @@ const Navbar = () => {
             <div class="scrollmenu ">
                 <ul >
                     <li  ><a href="#" ><span className="active pl-1 pr-0" onClick={setActiveLink}>All</span></a></li>
-                    <li><a href="#" ><span onClick={setActiveLink}>Shipped</span></a></li>
+                    <li><a href="#" ><span onClick={setActiveLink}>Pending</span></a></li>
+                    <li><a href="#"><span onClick={setActiveLink}>Accepted</span></a></li>
+                    <li><a href="#"><span onClick={setActiveLink}>Rejected</span></a></li>
+                    <li><a href="#" ><span onClick={setActiveLink}>Packed</span></a></li>
+                    <li><a href="#"><span onClick={setActiveLink}>Shipped</span></a></li>
                     <li><a href="#"><span onClick={setActiveLink}>Delivered</span></a></li>
-                    <li><a href="#"><span onClick={setActiveLink}>Return</span></a></li>
+                     <li><a href="#" ><span onClick={setActiveLink}>Returned</span></a></li>
+                    <li><a href="#"><span onClick={setActiveLink}>Cancelled</span></a></li>
+            
                 </ul>
             </div>
 
